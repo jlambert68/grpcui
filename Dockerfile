@@ -27,4 +27,4 @@ COPY --from=builder /grpcui /bin/grpcui
 USER grpcui
 EXPOSE 8080
 
-ENTRYPOINT ["/bin/grpcui", "-bind=0.0.0.0", "-port=8080", "fenixexecutionserver-must-be-logged-in-nwxrrpoxea-lz.a.run.app:443"]
+ENTRYPOINT ["/bin/grpcui", "-bind=0.0.0.0", "-port=8080", "fenixexecutionserver-nwxrrpoxea-lz.a.run.app:443"]
